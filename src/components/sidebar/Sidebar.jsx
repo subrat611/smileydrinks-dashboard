@@ -13,7 +13,9 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="top">
-        <span id="logo">Smiley Drinks</span>
+        <Link to="/" style={LinkStyle}>
+          <span id="logo">Smiley Drinks</span>
+        </Link>
       </div>
       <div className="center">
         <span className="title">Rooms</span>
