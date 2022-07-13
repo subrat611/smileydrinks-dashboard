@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    
+    .current-container {
+        background-color: aliceblue;
+        flex: 6;
+    }
+}

@@ -3,7 +3,7 @@ import React from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
 
 // scss
-import "./home.scss";
+import "../../styles/global.scss";
 
 const Home = () => {
   return (
